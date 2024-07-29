@@ -1,11 +1,15 @@
-# Welcome to your Jupyter Book
+#  Preface
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This book is still being written slowly but steadily.
 
-Check out the content pages bundled with this sample book to see more.
+We illustrate with [python](https://www.python.org) code the simulation of various neuron models reported in the literature
+
+
+The main coverage include
+
+1. Mathematics and dynamics of Neuron models
+2. Simulation of neuron dynamics
+3. Simulation of Network of Neurons 
 
 ```{tableofcontents}
 ```
