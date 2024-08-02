@@ -6,9 +6,10 @@ In this book, we discuss a few neuron models, their dynamics in terms of differe
 
 Popular models include
 
-1. Hodgkin–Huxley or conductance-based model
-2. Leaky-integrate and fire model
-3. Izhikevich model
+1. Generic conductance-based model 
+2. Hodgkin–Huxley or conductance-based model (specific)
+3. Leaky-integrate and fire model
+4. Izhikevich model
 
 
 
