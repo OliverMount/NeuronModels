@@ -9,13 +9,16 @@ parts:
   chapters:
   - file: toc
   - file: Chapter1_intro
+parts:
 - caption: Models
   chapters:
   -file: LIF
   -file: Conductance
+parts:
 - caption: Network
   chapters:
   -file: Motif
+parts:
 - caption: Learning 
   chapters:
   -file: STDP
