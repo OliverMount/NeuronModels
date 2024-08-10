@@ -11,7 +11,8 @@ parts:
   - file: notebooks
   - file: markdown-notebooks
 - caption: Models
-
+  chapters:
+  - file: toc
 
 
 #- caption: Network
