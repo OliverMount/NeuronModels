@@ -9,11 +9,7 @@ parts:
   chapters:
   - file: toc
   - file: Chapter1_intro
-  #- file: notebooks
-  #- file: markdown-notebooks
 #- caption: Models
 #  chapters:
-
-
 #- caption: Network
 #- caption: Learning 
