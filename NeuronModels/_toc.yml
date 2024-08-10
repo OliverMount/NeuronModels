@@ -12,13 +12,13 @@ parts:
 parts:
 - caption: Models
   chapters:
-  -file: LIF
-  -file: Conductance
+  - file: LIF
+  - file: Conductance
 parts:
 - caption: Network
   chapters:
-  -file: Motif
+  - file: Motif
 parts:
 - caption: Learning 
   chapters:
-  -file: STDP
+  - file: STDP
