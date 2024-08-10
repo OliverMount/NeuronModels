@@ -3,7 +3,7 @@
 
 title: Simulation of Neuron Models using Brian2
 author: Oliver James
-logo: logo.png
+#logo: logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html

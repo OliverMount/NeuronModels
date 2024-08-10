@@ -2,11 +2,18 @@
 
 format: jb-book
 root: Preface
+
+parts:
+
+- caption: Introduction 
 chapters:
 - file: toc
 - file: Chapter1_intro
 - file: notebooks
 - file: markdown-notebooks
+- caption: Models
 
-```{tableofcontents}
-```
+
+
+- caption: Network
+- caption: Learning 
