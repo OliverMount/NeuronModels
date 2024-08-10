@@ -9,7 +9,11 @@ Popular models include
 1. Generic conductance-based model 
 2. Hodgkin–Huxley or conductance-based model (specific)
 3. Leaky-integrate and fire model
-4. Izhikevich model
+	* Quadratic Integrate-and-Fire Model (QIF)
+	* Exponential Integrate-and-Fire Model
+	* Adaptive Integrate-and-Fire Model
+	* Adaptive Exponential Integrate-and-Fire Model (AdEx)
+4. Izhikevich model (is similar to the QIF with an adaptation process)
 
 
 
