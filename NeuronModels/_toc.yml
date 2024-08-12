@@ -1,16 +1,17 @@
 # Table of contents
 
 format: jb-book
-root: Preface
+root: Contents
 
 options:
   numbered:true
 
 parts:
-
+- caption: Preface
+  chapters:
+  - file: Preface
 - caption: Introduction 
   chapters:
-  - file: Contents 
   - file: Chapter1_intro
 
 - caption: Models
