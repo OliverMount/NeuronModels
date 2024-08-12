@@ -10,6 +10,7 @@ parts:
 
 - caption: Introduction 
   chapters:
+  - file: Contents 
   - file: Chapter1_intro
 
 - caption: Models

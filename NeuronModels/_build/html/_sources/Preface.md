@@ -11,3 +11,6 @@ The main coverage include
 2. Simulation of neuron dynamics
 3. Simulation of Network of Neurons 
 
+
+```{tableofcontents}
+```
