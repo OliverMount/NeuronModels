@@ -12,7 +12,7 @@ parts:
   - file: Preface
 - caption: Introduction 
   chapters:
-  - file: Chapter1_intro
+  - file: Chapter1/NeuronModels
 
 - caption: Models
   chapters:
