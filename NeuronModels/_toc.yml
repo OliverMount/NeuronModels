@@ -16,6 +16,7 @@ parts:
 
 - caption: Models
   chapters:
+  - file: Chapter2/Hodgkin_Huxley
   - file: LIF
   - file: Conductance
 
