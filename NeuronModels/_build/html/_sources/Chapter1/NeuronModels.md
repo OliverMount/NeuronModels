@@ -15,5 +15,5 @@ Popular models include
 	* Adaptive Exponential Integrate-and-Fire Model (AdEx)
 4. Izhikevich model (is similar to the QIF with an adaptation process)
 
-
+We touch the implementation of these models in this book starting from single neuron to the population of neurons
 
