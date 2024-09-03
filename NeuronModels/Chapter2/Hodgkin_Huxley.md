@@ -9,3 +9,5 @@ where $m,n,$ and $k$ are the gating varibales that model the probability that a 
 $$
 \dot{x}=-{1\over\tau_{x}(u)}[x-x_{0}(u)],
 $$
+
+where $\tau$
