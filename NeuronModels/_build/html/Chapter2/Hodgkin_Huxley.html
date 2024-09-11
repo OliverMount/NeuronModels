@@ -7,8 +7,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hodgkin–Huxley model &#8212; Simulation of Neuron Models using Brian2</title>
   
   
@@ -43,8 +42,10 @@
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
     <script src="../_static/scripts/sphinx-book-theme.js"></script>
@@ -392,13 +393,18 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="hodgkinhuxley-model">
+  <div class="tex2jax_ignore mathjax_ignore section" id="hodgkinhuxley-model">
 <h1>Hodgkin–Huxley model<a class="headerlink" href="#hodgkinhuxley-model" title="Permalink to this heading">#</a></h1>
 <p>The dynamics of the HH model is given by</p>
 <div class="math notranslate nohighlight">
 \[ C \frac{dV}{dt} = I_{\text{Ext}} -  g_{\text{Na}}  m^3 h (V-E_{\text{Na}}) - g_{\text{K}}  n^4 (V-E_{\text{K}}) -g_{\text{Leak}} (V-E_{\text{Leak}}) ,\]</div>
-<p>where <span class="math notranslate nohighlight">\(m,n,\)</span> and <span class="math notranslate nohighlight">\(k\)</span> are the gating varibales that model the probability that a channel is open at a given moment in time.</p>
-</section>
+<p>where <span class="math notranslate nohighlight">\(m,n,\)</span> and <span class="math notranslate nohighlight">\(k\)</span> are the gating varibales that model the probability that a channel is open at a given moment in time. The dynamics of the gating variables are defined by</p>
+<div class="math notranslate nohighlight">
+\[
+\dot{x}=-{1\over\tau_{x}(u)}[x-x_{0}(u)],
+\]</div>
+<p>where <span class="math notranslate nohighlight">\(x\)</span> stands for <span class="math notranslate nohighlight">\(m,n, \text{or} h\)</span> and  <span class="math notranslate nohighlight">\(\tau(u)\)</span> is the time constant.</p>
+</div>
 
     <script type="text/x-thebe-config">
     {
