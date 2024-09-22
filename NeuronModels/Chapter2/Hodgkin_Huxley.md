@@ -10,6 +10,12 @@ where $m,n,$ and $k$ are the gating varibales that model the probability that a 
 $$
 \frac{dn}{dt} = \alpha_n (V)(1-n) - \beta_n(V)n
 $$
+$$
+\frac{dm}{dt} = \alpha_m (V)(1-m) - \beta_m(V)m
+$$
+$$
+\frac{dh}{dt} = \alpha_h (V)(1-h) - \beta_h(V)h
+$$
 
 
 
