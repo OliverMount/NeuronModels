@@ -10,4 +10,10 @@ $$
 \dot{x}=-{1\over\tau_{x}(u)}[x-x_{0}(u)],
 $$
 
-where $x$ stands for $m,n, \text{or} h$ and  $\tau(u)$ is the time constant. 
+where $x$ stands for $m,n, \text{or} h$ and  $\tau(u)$ is the time constant.
+
+
+
+
+
+The above equations can be written in the state-space form as  
