@@ -2,7 +2,7 @@
 
 There has been a rapid development in the computational neuroscience towards modeling neurons and neural network. These neuron model focuses on the dynamics of the neural systems rather than on the exact morphology of individual neurons.
 
-In this book, we discuss a few neuron models, their dynamics in terms of differentuial equation and their implementation via `Brian2` python toolbox.	 
+In this book, we discuss a few neuron models, their dynamics in terms of differentuial equation and their implementation via `Brian2` python toolbox.	While prior knowledge of `Brain2` is recommended, but it is not necessary. 
 
 Popular models include
 
@@ -16,4 +16,5 @@ Popular models include
 4. Izhikevich model (is similar to the QIF with an adaptation process)
 
 We touch the implementation of these models in this book starting from single neuron to the population of neurons
+
 
